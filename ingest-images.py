@@ -1,10 +1,10 @@
-import neccessary libraries
-import script I used previously for downloading web images
-
-def readWebImages:
-    searchQueries = some list of words
-    
-    use imported script to search and download based on search queries
-
-    :
-    
+print('[0] 0-9')
+print('[1] 10-19')
+print('[2] 20-29')
+print('[3] 30-39')
+print('[4] 40-49')
+print('[5] 50-59')
+print('[6] 60-69')
+print('[7] 70-79')
+print('[8] 80-89')
+print('[9] 90-99')

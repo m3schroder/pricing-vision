@@ -1,0 +1,35 @@
+import libraries
+
+
+# Downloads images into a main directory
+def downloadWebImages:
+    searchQueries = [list of queries]
+    
+    for val in searchQueries:
+        # doing this using threads would speed up the process considerably
+        scrape.py [query] [path] [num_images]
+
+# Reads from the main image directory and 
+# moves images to other directories for classification
+def classifyWebImages:
+    for image in mainDirectory:
+
+        # where the price range stands for a directory
+        print('[0] 0-9')
+        print('[1] 10-19')
+        print('[2] 20-29')
+        print('[3] 30-39')
+        print('[4] 40-49')
+        print('[5] 50-59')
+        print('[6] 60-69')
+        print('[7] 70-79')
+        print('[8] 80-89')
+        print('[9] 90-99')
+        
+        # Use dictionary because python doesn't have a switch statement
+        python switch statement(classificationInput(0-9))
+            os call to copy curr-image into selected directory as image_name
+
+            os call to rename image_name to image_name + classification
+            
+    
